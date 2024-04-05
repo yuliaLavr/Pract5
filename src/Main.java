@@ -67,9 +67,20 @@ public class Main {
             System.out.println("Імена не ідентичні");
         }
 
-
-
-
-
+         //Завданн5:
+        String p1,p2;
+        Scanner pp = new Scanner(System.in);
+        System.out.println("Введіть символи 1 ");
+        p1=pp.nextLine();
+        System.out.println("Введіть символи 2 ");
+        p2=pp.nextLine();
+        int len1=p1.length();
+        int len2=p2.length();
+        if(len1>len2){
+            System.out.println("Перший рядок містить більше символів"+len1);
+        }
+        else{
+            System.out.println("Другий рядок містить більше символів"+len2);
+        }
     }
 }
